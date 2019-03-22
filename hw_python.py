@@ -92,10 +92,11 @@ print(sum_a / len(a2))
 
 numbers = [1,2,3,4,5]
 
-result = []
-for n in numbers:
-    if n % 2 == 1:
-        result.append(n*2)
+# result = []
+# for n in numbers:
+#     if n % 2 == 1:
+#         result.append(n*2)
+
 
 
 number_times_two = [n*2 for n in numbers if n % 2 == 1]
